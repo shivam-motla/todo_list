@@ -1,1 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+.heading01{
+font-family: cursive;
+font-size: 2rem ;
+
+}
+
+.headingcontainer01{
+    background-color: #343a40;
+    
+}
+
+.fontcolor01{
+    color: aliceblue;
+}
+
+
