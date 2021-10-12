@@ -1,5 +1,5 @@
 <!-- <div>{{received_todo.sno}}</div> -->
-<div [ngClass]="{'strike': !received_todo.active}">{{received_todo.title}}</div>
+<div style="font-weight:bold;" [ngClass]="{'strike': !received_todo.active}">{{received_todo.title}}</div>
 <div [ngClass]="{'strike': !received_todo.active, 'fst-italic':true }">{{received_todo.desc}}</div>
 
 <div class="mb-3 form-check">
